@@ -5,4 +5,3 @@ scikit-learn
 matplotlib
 findspark
 pymongo
-nltk.util
