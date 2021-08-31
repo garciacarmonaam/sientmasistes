@@ -7,10 +7,10 @@ import pandas as pd
 import matplotlib.pyplot as mp
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn import metrics
-import findspark
-findspark.init()
-from pyspark import SparkContext
-sc = SparkContext.getOrCreate()
+#import findspark
+#findspark.init()
+#from pyspark import SparkContext
+#sc = SparkContext.getOrCreate()
 
 def descargarDatosDB(lexicon_terminos_negativos, lexicon_terminos_positivos, stopwords):
     from pymongo import MongoClient
