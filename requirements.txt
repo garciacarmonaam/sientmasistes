@@ -1,7 +1,7 @@
 streamlit
+findspark
 pandas
 numpy
 scikit-learn
 matplotlib
-findspark
 pymongo
