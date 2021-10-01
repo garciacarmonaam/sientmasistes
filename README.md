@@ -19,7 +19,7 @@ Al mismo tiempo, se aplica una serie de técnicas de visualización que facilita
 == ENLACES ==
 
 - Aplicación en ejecución: http://sientmeasistes.herokuapp.com/
-- Memoria (PDF): 
+- Memoria (PDF): https://drive.google.com/file/d/1uNjjFOjmPNLKjge5E8c9wkZiXpODzYvt/view?usp=sharing
  
  == LICENCIA == 
  
