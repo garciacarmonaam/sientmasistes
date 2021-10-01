@@ -15,8 +15,8 @@ from sklearn import metrics
 def descargarDatosDB(lexicon_terminos_negativos, lexicon_terminos_positivos, stopwords):
     from pymongo import MongoClient
     import urllib
-    usuario = urllib.parse.quote("amgc")
-    contrasena = urllib.parse.quote("am1996")
+    usuario = urllib.parse.quote("sientmasistes-test")
+    contrasena = urllib.parse.quote("LK1vC930H4m8SUTH")
     connection = MongoClient("mongodb+srv://" + usuario + ":" + contrasena + "@cluster0.uxnqk.mongodb.net/tfm-amgc?retryWrites=true&w=majority")
     db = connection['tfm-amgc']
     for termino_neg in db['lexicon-neg'].find({}, {'_id' : 0}):
